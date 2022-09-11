@@ -1,9 +1,2 @@
-# Blahaj-Checker-Uk
-
-A fun little project, took me like a day to get to a prototype stage
-
-## Stack:
-* [Next.js](https://nextjs.org)
-* [Vercel](https://vercel.com)
-* [Yarn](https://yarnpkg.com)
-* [Ikea's api](https://ikea.com)
+# Blahaj Checker
+A blahaj checker. It's literally a blahaj checker. (This is written for the UK, you can change it by putting your country code [here](https://github.com/IKEAStock/blahaj-checker-/blob/main/pages/api/stores.js#L4).
