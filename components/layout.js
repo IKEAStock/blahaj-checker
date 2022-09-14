@@ -14,7 +14,7 @@ export default function Layout({title, children}) {
                 <div className="content-wrapper">
                     {children}
                     <p className='card justify-content-center flex'>
-                        &copy; {new Date().getFullYear()} <a href="https://sean-outram.dev">Sean Outram</a>
+                        &copy; {new Date().getFullYear()} <a href="https://ikeastock.xyz">IKEA Stock</a>
                         <br />
                             Powered by:
                             <br />
