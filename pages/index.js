@@ -7,13 +7,13 @@ export default function Home() {
   const fetcher = (...args) => fetch(...args).then((res) => res.json())
   const { data, error } = useSWR('/api/stores', fetcher)
 
-  if (error) return <div>Failed to load</div>
+  if (error) return <div>Failed to load!</div>
   if (!data) return <Loading />
   return (
     <>
       <Layout title="home">
         <section className='card'>
-          <h2 className='title card-title'>availability</h2>
+          <h2 className='title card-title'>Availability</h2>
           <table border="1">
             <tr>
               <th>Stock Indicator</th>
